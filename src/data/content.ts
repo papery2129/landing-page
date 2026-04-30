@@ -27,7 +27,7 @@ export const landingData = {
       icon: "Cpu",
     }
   ],
-  
+
   techStack: {
     title: "Stack Tecnológico",
     description: "Utilizamos herramientas modernas y probadas en la industria para garantizar rendimiento, seguridad y mantenibilidad.",
@@ -43,6 +43,37 @@ export const landingData = {
       {
         name: "Cloud & DevOps",
         skills: ["AWS", "GitHub Actions", "Docker", "n8n"]
+      }
+    ]
+  },
+
+  projects: {
+    title: "Casos de Éxito",
+    description: "Conoce cómo hemos ayudado a empresas a escalar sus operaciones a través de ingeniería de software robusta y automatización.",
+    items: [
+      {
+        id: 1,
+        title: "Modernización de Plataforma E-commerce",
+        description: "Migración de un monolito heredado a una arquitectura de microservicios, mejorando los tiempos de carga en un 40% y asegurando alta disponibilidad durante picos de tráfico.",
+        impact: "Reducción de costos de servidor en un 30% mensual.",
+        tech: ["React", "TypeScript", "Go", "AWS"],
+        link: "#"
+      },
+      {
+        id: 2,
+        title: "Automatización de Flujos Operativos",
+        description: "Se implementó un sistema de automatización para procesos internos de recursos humanos y facturación, conectando múltiples APIs empresariales y reduciendo el trabajo manual.",
+        impact: "Ahorro de más de 20 horas semanales en tareas operativas.",
+        tech: ["Python", "FastAPI", "n8n", "AWS EC2"],
+        link: "#"
+      },
+      {
+        id: 3,
+        title: "Sistema de Gestión Documental Inteligente",
+        description: "Desarrollo de una plataforma Full Stack para la indexación y búsqueda de documentos empresariales, integrando LLMs como herramienta de apoyo para la clasificación automática de datos.",
+        impact: "Optimización en la búsqueda de archivos críticos en un 80%.",
+        tech: ["Next.js", "Python", "AWS S3"],
+        link: "#"
       }
     ]
   },

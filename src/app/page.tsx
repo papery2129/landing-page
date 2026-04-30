@@ -8,6 +8,7 @@ import { Code, Server, Cpu } from "lucide-react";
 
 // Importamos nuestra nueva sección
 import { TechStack } from "@/components/sections/TechStack";
+import { Projects } from "@/components/sections/Projects";
 
 const renderIcon = (iconName: string) => {
   const iconProps = { className: "w-10 h-10 mb-4 text-primary" };
@@ -73,6 +74,8 @@ export default function Home() {
           </Carousel>
         </div>
       </section>
+      {/* --- project SECTION --- */}
+      <Projects />
 
       {/* --- TECH STACK SECTION --- */}
       <TechStack />
