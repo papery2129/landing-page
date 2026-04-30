@@ -27,6 +27,25 @@ export const landingData = {
       icon: "Cpu",
     }
   ],
+  
+  techStack: {
+    title: "Stack Tecnológico",
+    description: "Utilizamos herramientas modernas y probadas en la industria para garantizar rendimiento, seguridad y mantenibilidad.",
+    categories: [
+      {
+        name: "Frontend",
+        skills: ["React", "TypeScript", "Next.js", "Tailwind CSS"]
+      },
+      {
+        name: "Backend & APIs",
+        skills: ["Go", "Python", "FastAPI", "Node.js"]
+      },
+      {
+        name: "Cloud & DevOps",
+        skills: ["AWS", "GitHub Actions", "Docker", "n8n"]
+      }
+    ]
+  },
 
   footer: {
     brand: "DevStudio TI",
@@ -38,7 +57,7 @@ export const landingData = {
     },
     socials: [
       { name: "GitHub", url: "#" },
-      { name: "LinkedIn", url: "#" },
+      { name: "LinkedIn", url: "www.linkedin.com/in/papery2129-1349872bb" },
     ]
   }
 };
